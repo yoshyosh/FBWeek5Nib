@@ -7,6 +7,7 @@
 //
 
 #import "HeadlineViewController.h"
+#import "EditViewController.h"
 
 @interface HeadlineViewController ()
 
@@ -87,4 +88,12 @@ float currentPanYPosition;
     }];
 }
 
+- (IBAction)editSectionButton:(id)sender {
+    EditViewController *editViewController = [[EditViewController alloc] init];
+    editViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    
+    [self presentViewController:editViewController animated:YES completion:nil];
+    initialHeadlineYPosition = 0;
+    //Not sure why headline position automatically went to top, probably because it just grabs the last view (refreshes it)
+}
 @end

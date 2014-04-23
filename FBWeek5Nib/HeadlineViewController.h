@@ -11,5 +11,6 @@
 @interface HeadlineViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIView *headlineViewContainer;
 @property (strong, nonatomic) IBOutlet UIImageView *headlineImage;
+- (IBAction)editSectionButton:(id)sender;
 
 @end

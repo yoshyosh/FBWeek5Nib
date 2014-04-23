@@ -21,6 +21,8 @@
 		332A04B61907290200CCA9B6 /* FBWeek5NibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A04B51907290200CCA9B6 /* FBWeek5NibTests.m */; };
 		332A04C21907292C00CCA9B6 /* HeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A04C01907292C00CCA9B6 /* HeadlineViewController.m */; };
 		332A04C31907292C00CCA9B6 /* HeadlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332A04C11907292C00CCA9B6 /* HeadlineViewController.xib */; };
+		332A04C71907452300CCA9B6 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A04C51907452300CCA9B6 /* EditViewController.m */; };
+		332A04C81907452300CCA9B6 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332A04C61907452300CCA9B6 /* EditViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		332A04BF1907292C00CCA9B6 /* HeadlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlineViewController.h; sourceTree = "<group>"; };
 		332A04C01907292C00CCA9B6 /* HeadlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlineViewController.m; sourceTree = "<group>"; };
 		332A04C11907292C00CCA9B6 /* HeadlineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadlineViewController.xib; sourceTree = "<group>"; };
+		332A04C41907452300CCA9B6 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		332A04C51907452300CCA9B6 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		332A04C61907452300CCA9B6 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				332A04BF1907292C00CCA9B6 /* HeadlineViewController.h */,
 				332A04C01907292C00CCA9B6 /* HeadlineViewController.m */,
 				332A04C11907292C00CCA9B6 /* HeadlineViewController.xib */,
+				332A04C41907452300CCA9B6 /* EditViewController.h */,
+				332A04C51907452300CCA9B6 /* EditViewController.m */,
+				332A04C61907452300CCA9B6 /* EditViewController.xib */,
 			);
 			path = FBWeek5Nib;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332A04C81907452300CCA9B6 /* EditViewController.xib in Resources */,
 				332A049B1907290200CCA9B6 /* InfoPlist.strings in Resources */,
 				332A04C31907292C00CCA9B6 /* HeadlineViewController.xib in Resources */,
 				332A04A31907290200CCA9B6 /* Images.xcassets in Resources */,
@@ -248,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332A04C71907452300CCA9B6 /* EditViewController.m in Sources */,
 				332A04A11907290200CCA9B6 /* AppDelegate.m in Sources */,
 				332A04C21907292C00CCA9B6 /* HeadlineViewController.m in Sources */,
 				332A049D1907290200CCA9B6 /* main.m in Sources */,
