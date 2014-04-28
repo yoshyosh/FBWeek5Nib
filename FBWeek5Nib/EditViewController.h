@@ -10,5 +10,12 @@
 
 @interface EditViewController : UIViewController
 - (IBAction)doneEditing:(id)sender;
-
+@property (strong, nonatomic) IBOutlet UIImageView *savedCard;
+@property (strong, nonatomic) IBOutlet UIView *saveableCard;
+@property (strong, nonatomic) IBOutlet UIImageView *saveableCardImage;
+@property (strong, nonatomic) IBOutlet UIImageView *dropbox;
+@property (nonatomic) UIDynamicAnimator *animator;
+@property (nonatomic) UIGravityBehavior *gravityBehavior;
+@property (strong, nonatomic) IBOutlet UIView *saveableCardContainer;
+@property (nonatomic) UIAttachmentBehavior *attachmentBehavior;
 @end
